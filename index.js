@@ -39,19 +39,19 @@ app.post("/send", function (req, res) {
     html: `   
     <div
       style="
-        background-color: #0b0b3f;
+        background-color: black;
         border-radius: 8px;
         padding: 50px;
         margin: 10px;
       "
     >
-      <h1 style="color: orange">Hi brother!</h1>
+      <h1 style="color: orange">Hi!</h1>
       <h3 style="color: orange">• New message from:</h3>
-      <p style="color: #ffcb87">${req.body.mailerState.name}</p>
+      <p style="color: white">${req.body.mailerState.name}</p>
       <h3 style="color: orange">• Email:</h3>
-      <p style="color: #ffcb87">${req.body.mailerState.email}</p>
+      <p style="color: white">${req.body.mailerState.email}</p>
       <h3 style="color: orange">• Message:</h3>
-      <p style="color: #ffcb87">${req.body.mailerState.message}</p>
+      <p style="color: white">${req.body.mailerState.message}</p>
     </div>`,
   };
 
