@@ -35,7 +35,7 @@ app.post("/send", function (req, res) {
   let mailOptions = {
     from: `"🌎 Portfolio KB"<${process.env.USER_EMAIL}>`,
     to: process.env.DESTINATION_EMAIL,
-    subject: "KBcruz Portfolio Message",
+    subject: "FerCruz Portfolio Message",
     html: `   
     <div
       style="
