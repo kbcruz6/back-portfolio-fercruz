@@ -33,7 +33,7 @@ transporter.verify((err, success) => {
 app.post("/send", function (req, res) {
   //! Nodemailer step 3
   let mailOptions = {
-    from: `"🌎 Portfolio KB"<${process.env.USER_EMAIL}>`,
+    from: `"🎨 Portfolio Fer"<${process.env.USER_EMAIL}>`,
     to: process.env.DESTINATION_EMAIL,
     subject: "FerCruz Portfolio Message",
     html: `   
